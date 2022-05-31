@@ -1,6 +1,7 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 .btn-rounded {
+    // Hides button on small devices
     @include media-breakpoint-down(sm) {
         display: none;
     }
