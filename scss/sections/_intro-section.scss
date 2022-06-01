@@ -21,8 +21,9 @@
 
         i {
           font-size: 6rem;
-          color: $black;
-          color: $secondary;
+          color: $white;
+          background-color: $secondary;
+          border-radius: 50%;
         }
       }
     }
@@ -35,7 +36,7 @@
   left: 0;
   height: 6.1rem;
   width: 6.1rem;
-  border: 0.55rem solid $white;
+  border: 0.55rem solid rgba($white, 0.8);
   border-radius: 50%;
   animation: pulse-border 1.6s linear infinite;
 

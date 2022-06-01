@@ -1,10 +1,13 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
+
 .btn-rounded {
+
     // Hides button on small devices
     @include media-breakpoint-down(sm) {
         display: none;
     }
+
     position: relative; //position is set to relative so we can give the icon an absolute position (absolute elements are positioned relative to its closest positioned ancestor
     padding: 0.9375rem 4.375rem 0.9375rem 1.2rem;
     font-weight: 600;
@@ -35,6 +38,8 @@
 
         span {
             opacity: 0.8;
-        };
+        }
+
+        ;
     }
 }
