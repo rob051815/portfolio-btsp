@@ -11227,6 +11227,10 @@ textarea.form-control-lg {
   }
 }
 
+.gradient {
+  background: linear-gradient(45deg, rgba(0, 51, 117, 0.95), rgba(0, 102, 236, 0.92));
+}
+
 .menu {
   background: linear-gradient(45deg, rgba(0, 51, 117, 0.95), rgba(0, 102, 236, 0.92));
 }
@@ -11407,6 +11411,42 @@ textarea.form-control-lg {
   opacity: 1;
   transition-duration: 800ms;
   transition-property: all;
+}
+
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style: none;
+  display: block;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-top: 0.7rem;
+}
+.cta-info__list i {
+  font-weight: 600;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.form {
+  padding: 2rem;
+}
+.form h4 {
+  font-size: 1.4rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.4rem;
 }
 
 /*# sourceMappingURL=style.css.map */

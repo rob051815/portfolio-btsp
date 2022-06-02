@@ -1,4 +1,5 @@
 @use '../custom' as *;
+@use './mixins' as *;
 
 .display-2 {
     margin-bottom: 1rem;
@@ -67,4 +68,10 @@
             font-size: 1.8rem;
         }
     }
+}
+
+// GRADIENT BG
+
+.gradient {
+    @include gradient;
 }
