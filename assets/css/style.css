@@ -11449,4 +11449,143 @@ textarea.form-control-lg {
   font-size: 1.4rem;
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #001D43;
+}
+
+.contact-box {
+  position: relative;
+  justify-content: center;
+}
+@media (min-width: 576px) {
+  .contact-box {
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-box {
+    text-align: center;
+  }
+}
+.contact-box__icon {
+  width: 3rem;
+  stroke: #fff;
+  padding-top: 0.33rem;
+}
+@media (min-width: 576px) {
+  .contact-box__icon {
+    width: 4rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-box__icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.contact-box__info {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+.contact-box__info a:hover {
+  color: #ced4da;
+}
+.contact-box__info--title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info--title {
+    font-size: 1.4rem;
+  }
+}
+.contact-box__info--subtitle {
+  font-size: 0.9rem;
+  color: #adb5bd;
+  text-decoration: none;
+}
+@media (min-width: 576px) {
+  .contact-box__info--subtitle {
+    font-size: 1rem;
+  }
+}
+
+.footer-social {
+  background-color: #003375;
+}
+.footer-social a {
+  color: #fff;
+}
+.footer-social a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-social a i {
+    font-size: 1.6rem;
+  }
+}
+.footer-social a:hover {
+  color: #ced4da;
+}
+
+.company-info hr {
+  width: 68px;
+  height: 2.4px;
+}
+.company-info .company-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.company-info .company-list li {
+  margin-bottom: 0.2rem;
+}
+.company-info .company-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.company-info .company-list li a:hover {
+  color: #adb5bd;
+}
+@media (min-width: 576px) {
+  .company-info .company-list li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.footer-copyright {
+  background-color: #212529;
+  color: #adb5bd;
+  font-weight: 400;
+}
+.footer-copyright a {
+  color: #ced4da;
+  text-decoration: none;
+  font-weight: 500;
+}
+.footer-copyright a:hover {
+  color: #f8f9fa;
+  text-decoration: underline;
+}
+
+.back_to_top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.85rem;
+  bottom: 1.85rem;
+  z-index: 9999;
+}
+.back_to_top i {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*# sourceMappingURL=style.css.map */
